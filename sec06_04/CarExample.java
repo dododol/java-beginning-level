@@ -9,7 +9,7 @@ public class CarExample {
 		
 		boolean gasState = myCar.isLeftGas();	//Car의 isLeftGas() 메소드호출
 		if(gasState) {
-			System.out.println("출바합니다.");
+			System.out.println("출발합니다.");
 			myCar.run();	//Car의 run() 메소드 호출
 		}
 		
