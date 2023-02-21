@@ -2,7 +2,7 @@ package sec06_05;
 
 public class Car {
 	//필드
-	String mode;
+	String model;
 	int speed;
 	
 	//생성자
