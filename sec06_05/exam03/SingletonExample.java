@@ -8,7 +8,7 @@ public class SingletonExample {
 		 * Singleton obj2 = new Singleton();
 		 */
 		
-		Singleton lbj1 = Singleton.getInstance();
+		Singleton obj1 = Singleton.getInstance();
 		Singleton obj2 = Singleton.getInstance();
 		
 		if(obj1 == obj2) {
