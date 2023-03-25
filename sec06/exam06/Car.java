@@ -13,7 +13,7 @@ public class Car {
 	}
 	public void setSpeed(int speed) {
 		if(speed < 0) {
-			this.speed = 0;
+			this.speed = 5;
 			return;
 		} else {
 			this.speed = speed;
@@ -25,7 +25,7 @@ public class Car {
 	}
 	public void setStop(boolean stop) {
 		this.stop = stop;
-		this.speed = 0;
+		this.speed = 5;
 	}
 
 }
