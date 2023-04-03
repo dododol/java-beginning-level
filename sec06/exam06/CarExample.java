@@ -11,7 +11,7 @@ public class CarExample {
 		System.out.println("현재 속도: " + myCar.getSpeed());
 		
 		//올바른 속도 변경
-		myCar.setSpeed(130);
+		myCar.setSpeed(140);
 		
 		//멈춤
 		if(!myCar.isStop()) {
