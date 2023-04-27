@@ -18,6 +18,6 @@ public class _05_Operator5 {
 
 
         String s = (x != y) ? "달라요" : "같아요";
-        System.out.println(s); // 달라요
+        System.out.println(s); // x는 y와 값이 같지 않기 때문에 "달라요" 가 출력된다
     }
 }
